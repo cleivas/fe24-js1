@@ -9,6 +9,10 @@
   border: 0;
 }
 
+.border{
+  border: 2px solid yellow;
+}
+
 .bg-red{
   background-color: red;
 }
