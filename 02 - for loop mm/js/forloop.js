@@ -58,15 +58,18 @@ for(let i=5; i>0; i--){
 // appendChild(element)
 // append(element1, element2, element3 ..)
 
-// hämta alla h1-element och loopa igenom
+// hämta alla h1-element 
 const allH1 = document.querySelectorAll('h1');
 console.log(allH1.length)
 
+// Loopa så länge i är mindre än längden på allH1 vilket är 11
 for(let i=0; i<allH1.length; i++){
-    console.log(allH1[i]);
 
+    // Använd i för att komma åt de enskilda h1-elementen i listan
+    console.log(allH1[i]);
     allH1[i].style.color = 'hotpink';
 }
 
 // background-color i css 
 // backgroundColor i JS
+// TEST 
