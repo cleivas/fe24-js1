@@ -1,0 +1,38 @@
+.row-el{
+    color: #6f70f7;
+    text-align: center;
+}
+
+.flex-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container div:nth-child(2) {
+    text-align: center;
+}
+
+.flex-container div:nth-child(3) {
+    text-align: right; 
+}
+
+.column{
+    border: 10px solid #a8a8f0;
+    margin: 5rem 0 5rem;
+}
+
+.column>p{
+    width: 3rem;
+    margin: 0;
+    padding: .2rem;
+}
+
+.violet-bg{
+    background-color:  #a8a8f0;
+}
+
+.black-bg{
+    background-color: black;
+    color: white;
+}
