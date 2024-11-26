@@ -1,0 +1,13 @@
+.hidden{
+    display: none;
+}
+
+#popup{
+    border: skyblue 3px solid;
+}
+
+div{
+    border: 3px solid blueviolet;
+    padding: 2rem;
+    margin: 2rem;
+}
