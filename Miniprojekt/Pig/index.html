@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1>Pig</h1>
+        <p>Enter your name to start playing Pig.</p>
+        <input type="text" placeholder="Spider Pig" required>
+        <button>Start</button>
+    </form>
+
+    <main>
+        <div id="gameDiv"  class="hidden">
+            <h2 id="name"></h2>
+            <p id="score">Score: 0</p>
+            <p id="turns">Turns: 0</p>
+            <p id="turnScore">Turn score: 0</p>
+            <div class="die one">
+                <div></div>
+            </div>
+    
+            <button id="rollBtn">Roll</button>
+            <button id="holdBtn">Hold</button>
+        </div>
+        
+        <div id="winnerDiv" class="hidden">
+            <h1></h1>
+            <button id="resetBtn">Play again</button>
+        </div>
+    </main>
+
+</body>
+
+</html>

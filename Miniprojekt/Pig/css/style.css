@@ -1,0 +1,114 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+main{
+    width: 50%;
+    margin: 1rem auto;
+}
+form{
+    width: fit-content;
+    margin: 1rem auto;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+button{
+    margin: .3rem;
+}
+
+.die{
+    padding: 2%;
+    margin: 4rem auto 1rem;
+    max-width: 200px;
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 5%;
+    border: 2px solid gray;
+    background: hsl(40, 30%, 98%);
+    display: flex;
+}
+
+/* dots */
+.die div{
+    background: black;
+    border-radius: 50%;
+    width: 25%;
+    aspect-ratio: 1/1;
+}
+
+/* one */
+.one{
+    justify-content: center;
+    align-items: center;
+}
+
+/* two */
+.two{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* three */
+.three{
+    justify-content: space-around;
+    align-items: center;
+}
+.three > :first-child{
+    align-self: flex-start;
+}
+.three > :last-child{
+    align-self: flex-end;
+}
+
+/* four */
+.four{
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: row wrap;
+}
+.four > :first-child, .four > :nth-child(2){
+    align-self: flex-start;
+}
+.four > :first-child, .four > :nth-child(3){
+    margin-right: 50%;
+}
+
+/* five */
+.five{
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+.five > :first-child, .five > :nth-child(4){
+    margin-right: 50%;
+}
+.five > :nth-child(3){
+    margin: 0 37.5%;
+    justify-self: center;
+    align-self: center;
+}
+.five > :last-child, .five > :nth-child(4){
+    align-self: flex-end;
+}
+
+/* six */
+.six{
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+.six > :nth-child(2n+1){
+    margin-right: 50%;
+}
+.six > :nth-child(3), .six > :nth-child(4){
+    align-self: center;
+}
+.six > :nth-child(5), .six > :last-child{
+    align-self: flex-end;
+}
