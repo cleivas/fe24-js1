@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    margin: 20px;
+    aspect-ratio: 1/1;
+    background-color: skyblue;
+}
+
+.hidden{
+    display: none;
+}
+
+img{
+    margin: 1rem;
+    width: 100px;
+}
