@@ -1,0 +1,45 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+form, .message{
+    /* border: solid 1px black; */
+    padding: 0 2rem;
+    width: fit-content;
+    max-width: 400px;
+    margin: 3rem auto 0;
+}
+form>p{
+    margin-bottom: 2rem;
+}
+
+form>div{
+    /* border: solid 1px red; */
+    /* display: flex; */
+    margin: .7rem;
+}
+form>div>label{
+    margin-right: .7rem;
+}
+form>div>button{
+    /* text-align: center; */
+    display: block;
+    margin: 2rem auto;
+}
+
+.message{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3;
+}
+.message span{
+    font-weight: bold;
+}
+
+
+.hidden{
+    display: none;
+}

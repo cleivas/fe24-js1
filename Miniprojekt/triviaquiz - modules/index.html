@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="./main.js" type="module"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Trivia Quiz</h1>
+    <form id="startForm">
+        <div>
+            <label for="category">Category</label>
+            <select name="category" id="category">
+                <option value="23">History</option>
+                <option value="22">Geography</option>
+                <option value="27">Animals</option>
+            </select>
+        </div>
+        <div>
+            <label for="difficulty">Level</label>
+            <select name="difficulty" id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        <div>
+            <label for="numberOfQuestions">Number of questions</label>
+            <input type="number" name="numberOfQuestions" id="numberOfQuestions" min="1" max="10" value="3">
+        </div>
+        <div>
+            <button>Start the quiz!</button>
+        </div>
+    </form>
+
+    <form id="questionForm" class="hidden">
+        <p></p>
+        <div>
+            <input type="radio" id="radio1" name="answers" required="required">
+            <label for="radio1"></label>
+        </div>
+        <div>
+            <input type="radio" id="radio2" name="answers"  required="required">
+            <label for="radio2"></label>
+        </div>
+        <div>
+            <input type="radio" id="radio3" name="answers" required="required">
+            <label for="radio3"></label>
+        </div>
+        <div>
+            <input type="radio" id="radio4" name="answers" required="required">
+            <label for="radio4"></label>
+        </div>
+        <div>
+            <button>Go!</button>
+        </div>
+    </form>
+
+    <div id="score" class="hidden message">
+
+        <p>You scored <span></span></p>
+        <p>The game will start over soon...</p>
+    </div>
+    <div id="messageDiv" class="hidden message">
+        <p id="result"></p>
+    </div>
+    </body>
+
+</html>
