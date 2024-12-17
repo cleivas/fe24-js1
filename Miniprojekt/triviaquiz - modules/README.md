@@ -7,4 +7,4 @@ I spelet väljer spelaren först vilken typ av frågor hen vill ha samt hur mån
 
 ### Resurser
 underscore, helper library- https://underscorejs.org/
-Open Trivia Database, API - https://opentdb.com/ 
+  Open Trivia Database, API - https://opentdb.com/ 
